@@ -4,8 +4,6 @@ import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 from keras.preprocessing import image
-import socket
-import time
 import json
 
 # load the appropriate Keras model
@@ -14,9 +12,6 @@ MODEL_PATH = 'model.h5'
 # check if user provided a model file else use default
 if os.path.isfile('/model/model.h5'):
     MODEL_PATH = '/model/model.h5'
-
-# get hostname to display
-hostname = socket.gethostname()
 
 # Load the model from saved file
 classifier = keras.models.load_model(MODEL_PATH)
@@ -38,15 +33,13 @@ print(tf.__version__)
 # Make prediction for image and populate result dictionary
 def make_prediction(filepath):
     result = {}
-    result['IPAddress'] = hostname
     result['filename'] = filepath
     filepath = os.path.join(app.config['UPLOAD_FOLDER'], filepath)
     test_image = image.load_img(filepath, target_size = (IMGW, IMGH))
     test_image = image.img_to_array(test_image)/255.
     print(test_image.shape)
     test_image = np.expand_dims(test_image, axis = 0)
-    result['answer'] = classifier.predict(test_image)[0][0]
-    time.sleep(0.5)
+    result['answer'] = classifier.predict(test_image)[0]
     return result
 
 def delete_file(filepath):
