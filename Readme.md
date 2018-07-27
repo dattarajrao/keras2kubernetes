@@ -21,4 +21,4 @@ This can easily be packaged as a Kubernetes deployment and service using the fol
 `https://github.com/dattarajrao/keras2kubernetes/blob/master/deploy2k8s.yaml`
 
 Please send across any questions, comments and feedbac to:
-[Dattaraj Rao](dattarajrao@yahoo.com)
+[Dattaraj Rao](mailto:dattarajrao@yahoo.com)
