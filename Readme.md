@@ -12,7 +12,7 @@ You can test the application by pointing your browser to:
 `http://localhost:7001`
 
 or use CURL command to validate the model as API:
->> `curl --form image=@/mymachinepath/image.jpg http://<<k8s service ip:port >>/inference`
+>> `curl --form image=@/mymachinepath/image.jpg http://localhost:7001/inference`
 
 also - JSON descriotion of the model is available at:
 `http://localhost:7001/model`
