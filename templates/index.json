@@ -1,0 +1,4 @@
+{
+  "answer": {{ result['answer'] }},
+  "host": {{ result['IPAddress'] }}
+}

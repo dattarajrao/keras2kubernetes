@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Railway Track Inspection WebApp - Model Manager - DEMO</title>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/app.css') }}">
+</head>
+
+<body>
+<header class="navbar">
+  <font face="arial" size="3">
+  Select image of a Railway Track and upload for analysis by Deep Learning Model.
+</font><br><br><br>
+  <form action="/upload" method="post" enctype="multipart/form-data" >
+      <span class="btn btn-default btn-file">
+        Browse <input type="file" name="image">
+      </span>
+
+    <input type="submit" value="Upload your image" class="btn btn-primary">
+  </form>
+  <hr>
+  <font face="arial" size="3">
+    {% if result %}
+      {% if result['answer'] > 0.5 %}
+        Sunkink found. <br><br>
+      {% else %}
+        Regular Track. <br><br>
+      {% endif %}
+      <img src='{{ result['filename'] }}' width=800 height=600>
+    {% endif %}
+  </font>
+
+</header>
+
+{{ result }}
+
+</body>
+</html>
