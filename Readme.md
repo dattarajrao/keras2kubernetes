@@ -33,9 +33,8 @@ If you’re ready to learn about one of the most popular DL frameworks and build
 * <a href="Chapter 5 - Advanced Deep Learning.ipynb">Chapter 5: Advanced Deep Learning</a>
 
 * Chapter 6: Cutting-Edge Deep Learning Projects
-
-** <a href="Keras_2_Kubernetes_Chapter_6_Dattaraj_J_Rao_Neural_Style_Transfer_demo.ipynb">Neural Style Transfer demo</a>
-** <a href="Keras_2_Kubernetes_Chapter_6_Dattaraj_J_Rao_Generative_Adversarial_Networks.ipynb">Generative Adversarial Networks</a>
+    * <a href="Keras_2_Kubernetes_Chapter_6_Dattaraj_J_Rao_Neural_Style_Transfer_demo.ipynb">Neural Style Transfer demo</a>
+    * <a href="Keras_2_Kubernetes_Chapter_6_Dattaraj_J_Rao_Generative_Adversarial_Networks.ipynb">Generative Adversarial Networks</a>
 
 * Chapter 7: AI in the Modern Software World
 
