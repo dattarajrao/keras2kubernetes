@@ -18,7 +18,7 @@ Keras to Kubernetes: The Journey of a Machine Learning Model to Production  take
 
 If you’re ready to learn about one of the most popular DL frameworks and build production applications with it, you’ve come to the right place. Below is the table of contents for the book and supported code from the book for your reference.
 
-## <a href="https://www.wiley.com/en-us/Keras+to+Kubernetes%3A+The+Journey+of+a+Machine+Learning+Model+to+Production+-p-9781119564836" target="_blank">Keras to Kubernetes: The Journey of a Machine Learning Model to Production</a>
+## <a href="https://www.wiley.com/en-us/Keras+to+Kubernetes%3A+The+Journey+of+a+Machine+Learning+Model+to+Production+-p-9781119564836">Keras to Kubernetes: The Journey of a Machine Learning Model to Production</a>
 
 * INTRODUCTION
 
@@ -26,13 +26,16 @@ If you’re ready to learn about one of the most popular DL frameworks and build
 
 * <a href="Chapter 2 - Machine Learning.ipynb">Chapter 2: Machine Learning</a>
 
-* Chapter 3: Handling Unstructured Data
+* <a href="Chapter 3 - Handling Unstructured Data.ipynb">Chapter 3: Handling Unstructured Data</a>
 
-* Chapter 4: Deep Learning using Keras
+* <a href="Chapter 4 - Deep Learning using Keras.ipynb">Chapter 4: Deep Learning using Keras</a>
 
-* Chapter 5: Advanced Deep Learning
+* <a href="Chapter 5 - Advanced Deep Learning.ipynb">Chapter 5: Advanced Deep Learning</a>
 
 * Chapter 6: Cutting-Edge Deep Learning Projects
+
+** <a href="Keras_2_Kubernetes_Chapter_6_Dattaraj_J_Rao_Neural_Style_Transfer_demo.ipynb">Neural Style Transfer demo</a>
+** <a href="Keras_2_Kubernetes_Chapter_6_Dattaraj_J_Rao_Generative_Adversarial_Networks.ipynb">Generative Adversarial Networks</a>
 
 * Chapter 7: AI in the Modern Software World
 
@@ -44,6 +47,7 @@ If you’re ready to learn about one of the most popular DL frameworks and build
 
 * Appendix A: REFERENCES
 
+<hr>
 
 ![Keras 2 Kubernetes](logo.png)
 ## Keras 2 Kubernetes
@@ -61,11 +65,11 @@ You can test the application by pointing your browser to:
 or use CURL command to validate the model as API:
 >> `curl --form image=@/mymachinepath/image.jpg http://localhost:7001/inference`
 
-also - JSON descriotion of the model is available at:
+also - JSON description of the model is available at:
 `http://localhost:7001/model`
 
 This can easily be packaged as a Kubernetes deployment and service using the following YAML file:
 `https://github.com/dattarajrao/keras2kubernetes/blob/master/deploy2k8s.yaml`
 
-Please send across any questions, comments and feedbac to:
+Please send across any questions, comments and feedback to:
 [Dattaraj Rao](mailto:dattarajrao@yahoo.com)
