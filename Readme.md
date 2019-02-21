@@ -26,9 +26,9 @@ Please send across any questions, comments and feedbac to:
 ![Keras 2 Kubernetes](book_image.jpg)
 ### Keras to Kubernetes: The Journey of a Machine Learning Model to Production
 
-* INRODUCTION
+* [Named Link](TensorFlow_CPU_vs_GPU_times.ipynb "Named link title")
 
-* A Word from the Author
+* INRODUCTION
 
 * Chapter 1: BigData & Artificial Intelligence
 
