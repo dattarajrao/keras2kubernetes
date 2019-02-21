@@ -24,7 +24,7 @@ If you’re ready to learn about one of the most popular DL frameworks and build
 
 * Chapter 1: BigData & Artificial Intelligence
 
-[Chapter 2: Machine Learning](Chapter 2 - Machine Learning.ipynb)
+* <a href="Chapter 2 - Machine Learning.ipynb">Chapter 2: Machine Learning</a>
 
 * Chapter 3: Handling Unstructured Data
 
