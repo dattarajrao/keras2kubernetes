@@ -22,3 +22,32 @@ This can easily be packaged as a Kubernetes deployment and service using the fol
 
 Please send across any questions, comments and feedbac to:
 [Dattaraj Rao](mailto:dattarajrao@yahoo.com)
+
+![Keras 2 Kubernetes](book_image.jpg)
+### Keras to Kubernetes: The Journey of a Machine Learning Model to Production
+
+* INRODUCTION
+
+* A Word from the Author
+
+* Chapter 1: BigData & Artificial Intelligence
+
+* Chapter 2: Machine Learning
+
+* Chapter 3: Handling Unstructured Data
+
+* Chapter 4: Deep Learning using Keras
+
+* Chapter 5: Advanced Deep Learning
+
+* Chapter 6: Cutting-Edge Deep Learning Projects
+
+* Chapter 7: AI in the Modern Softwear World
+
+* Chapter 8: Deploying AI Models as a Microservice
+
+* Chapter 9: Maching Learning Development Lifecycle
+
+* Chapter 10: A Platform for Machine Learning
+
+* Appendix A: REFERENCES
