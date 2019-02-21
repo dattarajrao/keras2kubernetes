@@ -26,9 +26,25 @@ Please send across any questions, comments and feedbac to:
 ![Keras 2 Kubernetes](book_image.jpg)
 ### Keras to Kubernetes: The Journey of a Machine Learning Model to Production
 
-* [Named Link](TensorFlow_CPU_vs_GPU_times.ipynb "Named link title")
+We have seen an exponential growth in the use of Artificial Intelligence (AI) over last few years. AI is becoming the new electricity and is touching every industry from retail to manufacturing to healthcare to entertainment. Within AI, we’re seeing a particular growth in Machine Learning (ML) and Deep Learning (DL) applications. ML is all about learning relationships from labeled (Supervised) or unlabeled data (Unsupervised). DL has many layers of learning and can extract patterns from unstructured data like images, video, audio, etc.
 
-* INRODUCTION
+Keras to Kubernetes: The Journey of a Machine Learning Model to Production  takes you through real-world examples of building DL models in Keras for recognizing product logos in images and extracting sentiment from text. You will then take that trained model and package it as a web application container before learning how to deploy this model at scale on a Kubernetes cluster. You will understand the different practical steps involved in real-world ML implementations which go beyond the algorithms.
+
+* Find hands-on on learning examples
+
+* Learn to uses Keras and Kubernetes to deploy Machine Learning models
+
+* Discover new ways to collect and manage your image and text data with Machine Learning
+
+* Reuse examples as-is to deploy your models
+
+* Understand the ML model development lifecycle and deployment to production
+
+If you’re ready to learn about one of the most popular DL frameworks and build production applications with it, you’ve come to the right place. Below is the table of contents for the book and supported code from the book for your reference.
+
+##[Keras to Kubernetes: The Journey of a Machine Learning Model to Production](https://www.wiley.com/en-us/Keras+to+Kubernetes%3A+The+Journey+of+a+Machine+Learning+Model+to+Production+-p-9781119564836)
+
+* INTRODUCTION
 
 * Chapter 1: BigData & Artificial Intelligence
 
@@ -42,11 +58,11 @@ Please send across any questions, comments and feedbac to:
 
 * Chapter 6: Cutting-Edge Deep Learning Projects
 
-* Chapter 7: AI in the Modern Softwear World
+* Chapter 7: AI in the Modern Software World
 
 * Chapter 8: Deploying AI Models as a Microservice
 
-* Chapter 9: Maching Learning Development Lifecycle
+* Chapter 9: Machine Learning Development Lifecycle
 
 * Chapter 10: A Platform for Machine Learning
 
